@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+table {
+  padding-left: 30px;
+}
+td {
+  max-width: 300px;
+  line-height: 40px;
+  font-size: 10pt;
+  text-align: left;
+  padding-right: 15px;
+}
+
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  max-width: 50px;
+  float: right;
+}
+.resultSize {
+  float: left;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-right: 100px;
+}
+.btnHeader {
+  float:center;
+  width: 100%;
+}
+.ageDiv {
+  float: right;
+  padding-right: 200px;
+}
+.noMatches {
+  text-align: center;
+  line-height: 100px;
+}
